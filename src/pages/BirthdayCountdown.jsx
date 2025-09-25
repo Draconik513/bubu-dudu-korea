@@ -81,7 +81,7 @@ const BirthdayCountdown = ({ isIOS }) => {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-2xl text-pink-600 mb-4">당신의 특별한 날을 향해</h2>
+          <h2 className="text-2xl text-pink-600 mb-4">너의 특별한 날을 향해</h2>
           <div className="flex justify-center space-x-2 md:space-x-4">
             {Object.entries(timeLeft).map(([unit, value]) => (
               <motion.div
