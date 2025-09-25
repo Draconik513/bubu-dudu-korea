@@ -62,7 +62,7 @@ const BirthdayCountdown = ({ isIOS }) => {
         className="text-center max-w-2xl"
       >
         <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-8">
-          The Birthday of <span className="text-purple-600">Laura</span>
+          The Birthday of <span className="text-purple-600">유승재 </span>
         </h1>
 
         <div className="mb-8">
@@ -81,7 +81,7 @@ const BirthdayCountdown = ({ isIOS }) => {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-2xl text-pink-600 mb-4">Menuju Hari Spesialmu</h2>
+          <h2 className="text-2xl text-pink-600 mb-4">당신의 특별한 날을 향해</h2>
           <div className="flex justify-center space-x-2 md:space-x-4">
             {Object.entries(timeLeft).map(([unit, value]) => (
               <motion.div
@@ -108,10 +108,10 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅 18 September 2025
+            📅 26 september  2025
           </h3>
           <p className="text-pink-600">
-            Tanggal dimana senyumanmu akan menerangi hariku🥹
+            내가 좋아하는 날 중 두 번째는 내 생일 다음 날이야.
           </p>
         </div>
 

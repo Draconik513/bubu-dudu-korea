@@ -15,13 +15,13 @@ const Memories = ({ isIOS }) => {
         className="max-w-5xl w-full text-center"
       >
         <h1 className="text-4xl font-bold text-pink-600 mb-8">
-          Kenangan Indah Kita
+          우리의 아름다운 추억
         </h1>
 
         <motion.div whileHover={{ scale: isIOS ? 1 : 1.02 }} className="mb-8">
           <img
             src={fotoKenangan}
-            alt="Kita Berdua"
+            alt="우리 둘"
             className="w-full max-w-md mx-auto rounded-xl shadow-2xl border-4 border-white"
             style={{ transform: "translateZ(0)" }}
           />
@@ -34,37 +34,41 @@ const Memories = ({ isIOS }) => {
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            🚨🚨🚨
+            생일에 같이할 수 없어 미안해
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>For my favorite person...</strong>
+              💌 <strong>자기야...</strong>
             </p>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              I may not be able to remind you every day 🕊️, but please enjoy
-              your meal at least once a day 🍽️. I know you are busy 🗂️, but
-              please take good care of yourself 🤍.
+              자기야 🫶🏻 오늘 같이 생일을 보낼 수 없어서 정말 미안해. 이렇게
+              멀리 있어서 아쉽고 마음이 안 놓여. 하지만 걱정하지 마. 내 마음과
+              기도는 항상 자기랑 함께 있어.
             </motion.p>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Pat yourself on the back whenever you feel sad 💭💪. Call me if
-              you need me 📞💕.
+              생일을 직접 축하해주지 못하지만, 내 마음 속에서는 이미 축하하고
+              있어. 자기의 하루가 행복과 웃음으로 가득하길 바래.
             </motion.p>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              No matter what happens, just remember 🌸 you're my sweet boy 🥰
-              and I'll always love you through anything and everything 💗✨
+              빨리 만나서 같이 웃고, 같이 축하할 날이 오길 손꼽아 기다릴게.
+              자기의 모든 순간을 응원하고 사랑하고 있다는 걸 잊지 마. 사랑해.
+              생일 축하해! 💖
             </motion.p>
           </div>
         </motion.div>
@@ -77,7 +81,7 @@ const Memories = ({ isIOS }) => {
           style={{ WebkitTapHighlightColor: "transparent" }}
         >
           <span className="button-text">
-            {flowerBloom ? "Tutup Bunga" : "Buka Bunga Cinta"}
+            {flowerBloom ? "꽃 닫기" : "사랑의 꽃 피우기"}
           </span>
         </motion.button>
 
@@ -92,7 +96,7 @@ const Memories = ({ isIOS }) => {
               transformStyle: "preserve-3d",
             }}
           >
-            {/* Romantic Video Bubble */}
+            {/* 로맨틱 비디오 */}
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -113,7 +117,7 @@ const Memories = ({ isIOS }) => {
               </video>
             </motion.div>
 
-            {/* Realistic Blooming Flower */}
+            {/* 현실적인 꽃 피기 */}
             <motion.div
               initial={{ y: 200, scale: 0 }}
               animate={{ y: 0, scale: 1 }}
@@ -163,8 +167,7 @@ const Memories = ({ isIOS }) => {
             transition={{ delay: 2.2 }}
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
-            🌸 Bunga ini sebagai hadiah dari permintaan maafku, sayang... Tolong
-            diterima ya 🥺❤️
+            🌸 이 꽃은 나의 사과와 사랑의 선물이야, 자기야... 받아줘 🥺❤️
           </motion.p>
         )}
       </motion.div>

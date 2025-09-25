@@ -19,9 +19,9 @@ const HomePage = ({ isIOS }) => {
           transition={{ delay: 0.5 }}
           className="mb-8"
         >
-          <p className="text-lg text-pink-600 pt-4">Untuk yang tersayang</p>
+          <p className="text-lg text-pink-600 pt-4">사랑하는 사람을 위해</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            Laura
+            유승재 
           </h1>
         </motion.div>
 
@@ -58,7 +58,7 @@ const HomePage = ({ isIOS }) => {
           className="space-y-6"
         >
           <h2 className="text-3xl font-bold text-pink-600">
-            Selamat Ulang Tahun Sayang!
+            생일 축하해 내 사랑!
           </h2>
           <p className="text-xl text-pink-600">🎉 14 September 2025 🎉</p>
 
@@ -67,7 +67,7 @@ const HomePage = ({ isIOS }) => {
               "happy birthday my sweet boy! 💗 today and everyday, only wishing the best for you 🫶🏻"
             </p>
             <p className="mt-4 text-right text-pink-600 font-medium">
-              - Andi
+              - intan
             </p>
           </div>
         </motion.div>
@@ -88,7 +88,7 @@ const HomePage = ({ isIOS }) => {
           >
             <span className="button-text flex items-center">
               <span className="mr-2">🎁</span>
-              Buka Hadiah Spesial
+              Open The Special Gift
               <span className="ml-2">🎁</span>
             </span>
           </motion.button>
