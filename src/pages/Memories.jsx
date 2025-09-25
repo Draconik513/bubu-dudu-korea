@@ -15,7 +15,7 @@ const Memories = ({ isIOS }) => {
         className="max-w-5xl w-full text-center"
       >
         <h1 className="text-4xl font-bold text-pink-600 mb-8">
-          우리의 아름다운 추억
+          우리 같이 찍은 사진이 없어서 그냥 이거 쓸게 ㅋㅋ
         </h1>
 
         <motion.div whileHover={{ scale: isIOS ? 1 : 1.02 }} className="mb-8">
